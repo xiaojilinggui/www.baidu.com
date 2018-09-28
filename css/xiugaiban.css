@@ -1,22 +1,22 @@
-		  *{
-		  	margin:0;
-		  	padding: 0;
-		  	box-sizing: border-box;
+ *{
+	  	margin:0;
+	  	padding: 0;
+	  	box-sizing: border-box;
 		  }
-		  body{
+body{
+		 display: flex;
 		 flex-direction: column;
 
 		  }
 .page-header{
-			position: absolute;
+			text-align: right;
+			margin-top: 15px;
+			margin-right: 15px;
 			right:20px;
 			font-size: 13px;
 			/*font-weight: 700;*/
 			line-height: 24px;
 			top: 15px;
-
-
-
 			}
 .head{
 			margin-left: 15px;
@@ -25,8 +25,7 @@
 /* body{
 	font: 12px arial;
      }			*/		
-
- .more{
+.more{
 		display: inline-block;
 		text-align: center;
 		width: 60px;
@@ -36,40 +35,43 @@
 		color: #fff;
 		margin-left: 20px;
 		border-bottom: 1px solid #38f;		
-		}	
+}	
 
 .page-header a:hover{
 		color: #00c;
-			}
+}
 
 .logo-container{
 		text-align: center;
-		position: relative;
-		top: 60px;
-
-			}
+		margin-top: 80px;
+}
 	.logo{
 		
 		/*top: 40px;*/
 		height: 129px;
 		width: 270px;
-		
-		}
+			}
 		.form-container{
-
-			position: relative;
 			text-align: center;
 			top: 80px;
 			font-size: 0;
 
-
-		}
+}
 		.input-l{
 			width: 540px;
 			height: 36px;
 			padding-right: 0;
 			vertical-align: bottom;
+			outline: none;
+			font-size: 16px;
+
+
 		}
+		.input-s{
+			text-align: center;
+			margin-top: 10px;
+			font-size: 0;
+}
 		.key{
 			width: 100px;
 			height: 36px;
@@ -77,4 +79,20 @@
 			border:1px solid #2d78f4;
 			color: #fff;
 			font-size: 15px;
-		}
+}
+.page-footer{
+			text-align: center;
+			margin-top: 200px;
+}
+.qrcode-contaienr{
+			margin-bottom: 10px;
+}
+.footer-info a{
+			color: #999;
+			margin-right:10px; 
+}
+.footer-info{
+			font-size: 12px;
+			margin-top: 10px;
+			color: #999;
+}
